@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <title>V is for Vince</title>
+
+  <meta charset="utf-8" />
+
+  <link rel="stylesheet" type="text/css" href="app/index.css" />
+
+  <script src="node_modules/babel-polyfill/dist/polyfill.min.js"></script>
+  <!-- SystemJS, for ES6 module support -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.41/system.js"></script>
+  <script>
+    System.config({
+      map: { app: 'app' },
+      packages: {
+        app: {
+          main: './index.js',
+          defaultExtension: 'js'
+        }
+      }
+    });
+    System.import('app').catch(function(err) { console.error(err); });
+  </script>
+
+  <body>
+    <canvas id="gameViewport" class="game-viewport"></canvas>
+  </body>
+</html>
