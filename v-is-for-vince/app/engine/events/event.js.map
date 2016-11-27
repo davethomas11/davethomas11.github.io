@@ -1,0 +1,1 @@
+{"version":3,"sources":["engine/events/event.ts"],"names":["GameEvent","Object","defineProperty","exports","value"],"mappings":"YAAA,IAAAA,WAAA,WAAA,QAAAA,MAEA,MAAAA,KAFAC,QAAAC,eAAAC,QAAA,cAAAC,OAAA","file":"event.js","sourcesContent":["export default class GameEvent {\n\n}"]}

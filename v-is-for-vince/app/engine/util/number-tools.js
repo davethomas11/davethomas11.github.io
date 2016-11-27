@@ -1,0 +1,2 @@
+"use strict";var NumberTools=function(){function e(){}return e.clamp=function(e,r,t){return Math.min(Math.max(e,r),t)},e.round=function(e,r){if(void 0===r&&(r=0),r<0)throw new Error("Decimal places must be a positive integer");var t=Math.pow(10,Math.floor(r));return Math.round(e*t)/t},e}();Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=NumberTools;
+//# sourceMappingURL=number-tools.js.map
