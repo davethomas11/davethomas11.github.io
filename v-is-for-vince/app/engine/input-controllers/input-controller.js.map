@@ -1,1 +1,1 @@
-{"version":3,"sources":["engine/input-controllers/input-controller.ts"],"names":["InputController","Object","defineProperty","exports","value"],"mappings":"YACA,IAAAA,iBAAA,WAAA,QAAAA,MAGA,MAAAA,KAEAC,QAAAC,eAAAC,QAAA,cAAAC,OAAA,oBAAeJ","file":"input-controller.js","sourcesContent":["\nabstract class InputController {\n  abstract bind(): void;\n  abstract unbind(): void;\n}\n\nexport default InputController;"]}
+{"version":3,"sources":["engine/input-controllers/input-controller.js"],"names":[],"mappings":"AAAA","file":"input-controller.js","sourcesContent":[null]}
